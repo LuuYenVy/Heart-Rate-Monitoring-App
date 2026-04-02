@@ -48,29 +48,42 @@ You can view the demo here:
 
 ---
 
-🏗 Architecture
+## 🏗 Architecture
 
-The application is built using MVVM (Model - View - ViewModel) combined with the Repository pattern.
+The application is built using **MVVM (Model - View - ViewModel)** combined with the **Repository pattern**.
 
-🔄 Data Flow
+### 🔄 Data Flow
 
 User Interaction (UI)
 → ViewModel (handles UI logic & state)
 → Repository (single source of truth)
 → Data Sources:
 
-Firebase Realtime Database (user data, appointments)
-FastAPI Backend (ML prediction API)
-🧩 Components
-View (Activity/Fragment)
-Handles UI rendering and user interactions
-ViewModel
-Manages UI-related data using LiveData and survives configuration changes
-Repository
-Abstracts data sources and provides clean API for ViewModel
-Data Sources
-Firebase: stores user data in real-time
-Backend API: processes heart rate data and returns prediction results
+* Firebase Realtime Database (user data, appointments)
+* FastAPI Backend (ML prediction API)
+
+### 🧩 Components
+
+* **View (Activity/Fragment)**
+  Handles UI rendering and user interactions
+
+* **ViewModel**
+  Manages UI-related data using LiveData and survives configuration changes
+
+* **Repository**
+  Abstracts data sources and provides clean API for ViewModel
+
+* **Data Sources**
+
+  * Firebase: stores user data in real-time
+  * Backend API: processes heart rate data and returns prediction results
+
+### 📌 Key Benefits
+
+* Separation of concerns
+* Easier testing and maintenance
+* Scalable architecture for future features
+
 ---
 
 ## 📷 Screenshots
