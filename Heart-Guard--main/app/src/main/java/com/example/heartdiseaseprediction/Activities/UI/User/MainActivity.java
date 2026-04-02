@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.heartdiseaseprediction.Activities.UI.User.chatbot.ChatFragment;
 import com.example.heartdiseaseprediction.R;
 import com.example.heartdiseaseprediction.databinding.ActivityMainScreenBinding;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -46,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                     replaceFragment(new AppointmentFragment());
                 }
                 else {
-                    replaceFragment(new ProfileFragment());
+                    replaceFragment(new ChatFragment());
                 }
                 return true;
             });
