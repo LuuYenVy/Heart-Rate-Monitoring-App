@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "979764325575",
+    "project_id": "healthcare-13176",
+    "storage_bucket": "healthcare-13176.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979764325575:android:7535e9c888aecc7d7ce2e2",
+        "android_client_info": {
+          "package_name": "com.example.heartdiseaseprediction"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_HY2MYZkZsloBE9gzShIxes-NlkmPscU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
